@@ -7,6 +7,7 @@ const Routes = () => {
     <div>
       <Intro />
       <div className="division"></div>
+      <SecondComponent />
 
       <h3>prueba 3333</h3>
     </div>

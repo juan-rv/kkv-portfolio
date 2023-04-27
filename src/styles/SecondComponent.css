@@ -45,8 +45,7 @@
 
 
 .all_content {
-  background-color: rgba(153, 40, 40);
-  background-image: url("../assets/papel.jpg");
+  background: linear-gradient(rgba(112, 117, 134, 0.445), rgba(60, 63, 73, 0.548)), url("../assets/papel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 90vh;

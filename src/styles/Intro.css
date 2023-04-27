@@ -3,7 +3,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 89vh;
+    height: 140vh;
+  
     display: flex;
     flex-direction: column;
     align-items: center;
