@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'kingkong';
+  src: url('../fonts/NimbusSansT-BlackCondensed.otf');
+}
+
+.content_second {
+  width: 100%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.blur-text {
+  text-transform: uppercace;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: white;
+  margin: 5;
+  letter-spacing: 1px;
+  
+}
+
+.blur-text p {
+  font-family: 'kingkong';
+  text-transform: uppercase;
+  color: black
+}
+
+.blur-text strong {
+   color: #55dcdb 
+}
+
+.blur-img {
+  position: sticky;
+  z-index: 999;
+  margin: auto;
+}
+
+.blur-img img {
+  width: 500px;
+}
+
+
+
+.all_content {
+  background-color: rgba(153, 40, 40);
+  background-image: url("../assets/papel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+

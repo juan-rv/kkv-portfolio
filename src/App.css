@@ -8,3 +8,10 @@ body {
   margin: 0px;
 }
 
+.division {
+ height: 40px; /* Altura igual al viewport */
+  background-image: linear-gradient(to bottom, #212121, #2C2E1F, #333925, #383E1D); /* Imagen degradado de arriba hacia abajo */
+  background-size: cover; /* Ajustar imagen al tamaño de la caja */
+  background-position: top; /* Posición inicial arriba */
+}
+

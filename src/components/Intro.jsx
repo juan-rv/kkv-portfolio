@@ -3,22 +3,32 @@ import Plx from "react-plx";
 import ScrollWrapper from "./ScrollWrapper";
 import { motion } from "framer-motion";
 import logo from "../assets/logo_big.png";
-
+import back from "../assets/first_back.jpg";
 import "../styles/Intro.css";
+import HeaderNav from "./NavBar";
 
 const exampleParallaxData = [
-  {
-    start: 0,
-    end: "100vh",
-    properties: [
-      {
-        startValue: 5,
-        endValue: 0,
-        property: "blur",
-      },
-    ],
-  },
+  // {
+  //   start: 0,
+  //   end: "100vh",
+  //   properties: [
+  //     {
+  //       startValue: 5,
+  //       endValue: 0,
+  //       property: "blur",
+  //     },
+  //   ],
+  // },
 ];
+const style = {
+  width: "100vw",
+  height: "250vh",
+  background: "../assets/first_back.jpg",
+  display: "flex",
+  flexDirection: "column",
+  // paddingTop: "40vh",
+  alignItems: "center",
+};
 
 const H1 = motion.h1;
 
@@ -31,7 +41,7 @@ const Intro = () => {
   return (
     <div>
       <ScrollWrapper onScroll={(v) => handleScrub(v)}>
-        <Plx parallaxData={exampleParallaxData} className="content_intro">
+        <Plx parallaxData={exampleParallaxData} style={style}>
           <div className="content_text">
             <H1
               initial={{ opacity: 0 }}
