@@ -1,39 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import Plx from "react-plx";
 import agrupacion from "../assets/agrupacion.jpeg";
 import "../styles/SecondComponent.css";
 
 const SecondComponent = () => {
-  const exampleParallaxData = [
-    // {
-    //   start: "0vh", //document.getElementById("blurImage"), //"500vh",
-    //   end: "400vh",
-    //   properties: [
-    //     {
-    //       startValue: 10,
-    //       endValue: 0,
-    //       property: "blur",
-    //     },
-    //   ],
-    // },
-  ];
+  const sectionRef = useRef();
 
-  const headingParalaxData = [
-    // {
-    //   start: "0vh",
-    //   end: "50vh",
-    //   properties: [
-    //     {
-    //       startValue: "block",
-    //       endValue: "none",
-    //       property: "display",
-    //     },
-    //   ],
-    // },
-  ];
+  const headingParalaxData = [];
 
   return (
-    <div className="all_content">
+    <div className="all_content" id="bio" ref={sectionRef}>
       <Plx className="content_second" parallaxData={headingParalaxData}>
         <div className="blur-text">
           <h1>Biografía</h1>

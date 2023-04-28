@@ -10,7 +10,7 @@ body {
 
 .division {
  height: 40px;
-  background-image: linear-gradient(to bottom, #495352, #B6B8BF); 
+  background-image: linear-gradient(to bottom, #161511, #454545, #7f7f7f, #b9b9b9, #bbbdc4); 
   background-size: cover; 
   background-position: top; 
 }

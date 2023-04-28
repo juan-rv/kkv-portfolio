@@ -1,17 +1,20 @@
 import React from "react";
+import HeaderNav from "../components/NavBar";
 import Intro from "../components/Intro";
 import SecondComponent from "../components/SecondComponent";
+import ThirdComponent from "../components/ThirdComponent";
 
-const Routes = () => {
+const Rutas = () => {
   return (
     <div>
+      <HeaderNav />
       <Intro />
       <div className="division"></div>
       <SecondComponent />
-
-      <h3>prueba 3333</h3>
+      <div className="division"></div>
+      <ThirdComponent />
     </div>
   );
 };
 
-export default Routes;
+export default Rutas;
