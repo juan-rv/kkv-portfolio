@@ -1,9 +1,16 @@
+.all_content {
+  background: linear-gradient(rgba(112, 117, 134, 0.445), rgba(60, 63, 73, 0.548)), url("../assets/papel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
 @font-face {
   font-family: 'kingkong';
   src: url('../fonts/NimbusSansT-BlackCondensed.otf');
 }
 
 .content_second {
+  height: 100%;
   width: 100%;
   position: absolute;
   display: grid;
@@ -11,24 +18,59 @@
 
 }
 
-.blur-text {
-  text-transform: uppercace;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  color: white;
-  margin: 5;
-  letter-spacing: 1px;
-  
+.title_bio {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: table;
+}
+.title_bio h1 {
+  background: #55dcdb;
+  color: black;
+  font-family: kingkong;
+  text-transform: uppercase;
+  float: left;
+  font-size: 50px;
+  margin: 0;
+  margin-top: 30px;
+  letter-spacing: 4px;
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 10ch;
+  animation: typing 2s steps(12),
+  blink 1s infinite step-end alternate;
+  overflow: hidden;
+  -webkit-animation: typing 2s steps(12),;
 }
 
-.blur-text p {
+@keyframes typing {
+  from {width: 0}
+}
+
+@keyframes blink {
+  50% {border-color: transparent;}
+}
+
+.p_bio {
+  width: 95%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+
+}
+
+.p_bio p {
+  text-align: justify;
   font-family: 'kingkong';
   text-transform: uppercase;
-  color: black
+  color: black;
+  margin: 0;
+  font-size: 19px;
 }
 
-.blur-text strong {
+.p_bio strong {
    color: #55dcdb 
 }
 
@@ -39,15 +81,13 @@
 }
 
 .blur-img img {
-  width: 500px;
+  width: 550px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+   box-shadow: 10px 10px 30px #1e535394 ;
+
 }
 
 
 
-.all_content {
-  background: linear-gradient(rgba(112, 117, 134, 0.445), rgba(60, 63, 73, 0.548)), url("../assets/papel.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 90vh;
-}
 
