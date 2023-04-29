@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'kingkong';
+  src: url('../fonts/NimbusSansT-BlackCondensed.otf');
+}
+.content_band{
+    background: linear-gradient(rgba(112, 117, 134, 0.445), rgba(60, 63, 73, 0.548)), url("../assets/papel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-transform: uppercase;
+    font-family: kingkong;
+}
+
+.first_content {
+    background: red;
+    width: 90%;
+    height: 90%;
+    margin: auto
+}
+
+.first_content img {
+    width: 300px;
+    height: 300px;
+}
+
+.second_content {
+    background: blue;
+    width: 90%;
+    height: 90%;
+    margin: auto
+}
