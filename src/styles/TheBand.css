@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     text-transform: uppercase;
-    font-family: kingkong;
+
 }
 
 .first_content {
@@ -30,4 +30,34 @@
     width: 90%;
     height: 90%;
     margin: auto
+}
+
+.second_content h2 {
+    background: #55dcdb;
+  color: black;
+  font-family: kingkong;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 0;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 4px;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 10ch;
+  animation: typing 2s steps(12),
+  blink 1s infinite step-end alternate;
+  overflow: hidden;
+  -webkit-animation: typing 2s steps(12),;
+}
+
+.second_content ul {
+    background: yellow;
+    margin-top: 40px;
+}
+
+.second_content li {
+    list-style: none;
+    margin-top: 15px;
 }
