@@ -10,12 +10,12 @@ import img3 from "../assets/forest.jpg";
 const TheBand = () => {
   const settings = {
     autoplay: true,
-    autoplaySpeed: 50,
+    autoplaySpeed: 60,
     lazyLoad: true,
     arrows: false,
     dots: true,
     infinite: true,
-    speed: 3000,
+    speed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };

@@ -2,6 +2,12 @@
   font-family: 'kingkong';
   src: url('../fonts/NimbusSansT-BlackCondensed.otf');
 }
+
+@font-face {
+    font-family: 'kingkongtexto';
+    src: url('../fonts//ZZYZX.TTF');
+}
+
 .content_band{
     background: linear-gradient(rgba(112, 117, 134, 0.445), rgba(60, 63, 73, 0.548)), url("../assets/papel.jpg");
     background-size: cover;
@@ -14,22 +20,27 @@
 }
 
 .first_content {
-    background: red;
+    background: black;
     width: 90%;
     height: 90%;
-    margin: auto
+    margin: auto;
+
 }
 
 .first_content img {
-    width: 300px;
-    height: 300px;
+    width: 60%;
+    height: 60%;
+    margin-top: 40px;
 }
 
+
 .second_content {
-    background: blue;
+    background-color: rgba(255, 255, 255, 0.075);
+    backdrop-filter: blur(1px) saturate(100%);
+    border-radius: 15px;
     width: 90%;
     height: 90%;
-    margin: auto
+    margin: auto;
 }
 
 .second_content h2 {
@@ -53,11 +64,17 @@
 }
 
 .second_content ul {
-    background: yellow;
     margin-top: 40px;
 }
 
 .second_content li {
+    font-family: kingkongtexto;
+    font-size: 25px;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.second_content strong {
+    color: #55dcdb;
 }
