@@ -1,0 +1,13 @@
+.trayectoria {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.info_trayectoria {
+    background: red;
+}
+
+.info_dos_trayectoria {
+    background: fuchsia
+}
