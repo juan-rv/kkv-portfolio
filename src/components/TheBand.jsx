@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,6 +8,8 @@ import img2 from "../assets/papel.jpg";
 import img3 from "../assets/forest.jpg";
 
 const TheBand = () => {
+  const sectionRef = useRef();
+
   const settings = {
     autoplay: true,
     autoplaySpeed: 60,
@@ -21,7 +23,7 @@ const TheBand = () => {
   };
 
   return (
-    <div className="content_band">
+    <div className="content_band" id="band" ref={sectionRef}>
       <div className="first_content">
         <Slider {...settings}>
           <div>

@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/Trayectoria.css";
 
 const Trayectoria = () => {
+  const sectionRef = useRef();
+
   return (
-    <div className="trayectoria">
+    <div className="trayectoria" id="trayectoria" ref={sectionRef}>
       <div className="info_trayectoria">
         <h1> Trayectoria</h1>
       </div>

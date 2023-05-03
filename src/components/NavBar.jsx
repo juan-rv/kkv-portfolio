@@ -19,8 +19,15 @@ const HeaderNav = () => {
             <a title="bio" href="#bio" onClick={() => handleLink("bio")}>
               bio
             </a>
-            <a title="third" href="#third" onClick={() => handleLink("third")}>
-              third
+            <a title="band" href="#band" onClick={() => handleLink("band")}>
+              the band
+            </a>
+            <a
+              title="trayectoria"
+              href="#trayectoria"
+              onClick={() => handleLink("trayectoria")}
+            >
+              Trayectoria
             </a>
           </ul>
         </nav>
