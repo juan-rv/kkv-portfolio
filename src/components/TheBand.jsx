@@ -15,9 +15,8 @@ const TheBand = () => {
     autoplaySpeed: 60,
     lazyLoad: true,
     arrows: false,
-    dots: true,
     infinite: true,
-    speed: 4000,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };

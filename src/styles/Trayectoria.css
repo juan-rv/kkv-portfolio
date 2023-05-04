@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'kingkong';
+  src: url('../fonts/NimbusSansT-BlackCondensed.otf');
+}
+
+@font-face {
+    font-family: 'kingkongtexto';
+    src: url('../fonts//ZZYZX.TTF');
+}
+
+
 .trayectoria {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -6,6 +17,52 @@
 
 .info_trayectoria {
     background: red;
+}
+
+.info_trayectoria h1 { 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-family: kingkong;
+    font-size: 40px;
+    background: #57DFDD;
+    color: black;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 11ch;
+    animation: typing 2s steps(12),
+    blink 1s infinite step-end alternate;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(12),;
+}
+
+
+.info_trayectoria ul {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: left;
+}
+
+.info_trayectoria strong {
+    color: #57DFDD;
+    margin-right: 25PX;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info_trayectoria li {
+    font-family: kingkong;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.info_trayectoria img {
+    width: 50%;
 }
 
 .info_dos_trayectoria {
