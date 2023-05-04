@@ -14,6 +14,7 @@ const Rutas = () => {
       <SecondComponent />
       <div className="division"></div>
       <TheBand />
+      <div className="division"></div>
       <Trayectoria />
     </div>
   );

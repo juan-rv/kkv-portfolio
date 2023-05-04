@@ -64,7 +64,7 @@ const SecondComponent = () => {
           </div>
         </div>
         <div className="blur-img">
-          <img src={agrupacion} />
+          <img src={agrupacion} alt="agrupacion" />
         </div>
       </Plx>
     </div>

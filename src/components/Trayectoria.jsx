@@ -36,8 +36,8 @@ const Trayectoria = () => {
     lazyLoad: true,
     arrows: false,
     infinite: true,
-    speed: 2000,
-    slidesToShow: 1,
+    speed: 3000,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
 
