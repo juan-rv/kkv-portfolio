@@ -3,9 +3,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/TheBand.css";
-import img1 from "../assets/logo_uno.jpg";
-import img2 from "../assets/papel.jpg";
-import img3 from "../assets/forest.jpg";
+import uno from "../assets/live/1.jpeg";
+import dos from "../assets/live/2.jpg";
+import tres from "../assets/live/3.jpg";
+import cuatro from "../assets/live/4.jpg";
+import cinco from "../assets/live/5.jpg";
+import seis from "../assets/live/6.jpg";
 
 const TheBand = () => {
   const sectionRef = useRef();
@@ -16,7 +19,7 @@ const TheBand = () => {
     lazyLoad: true,
     arrows: false,
     infinite: true,
-    speed: 2000,
+    speed: 1200,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -25,14 +28,23 @@ const TheBand = () => {
     <div className="content_band" id="band" ref={sectionRef}>
       <div className="first_content">
         <Slider {...settings}>
-          <div>
-            <img src={img1} alt="imagen 1" />
+          <div className="color">
+            <img src={uno} alt="imagen 1" />
           </div>
           <div>
-            <img src={img2} alt="imagen 2" />
+            <img src={dos} alt="imagen 2" />
           </div>
           <div>
-            <img src={img3} alt="imagen 3" />
+            <img src={tres} alt="imagen 3" />
+          </div>
+          <div>
+            <img src={cuatro} alt="imagen 3" />
+          </div>
+          <div>
+            <img src={cinco} alt="imagen 3" />
+          </div>
+          <div>
+            <img src={seis} alt="imagen 3" />
           </div>
         </Slider>
       </div>

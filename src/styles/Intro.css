@@ -10,11 +10,6 @@
     margin: 0
 }
 
-.content_intro::before{
-    background: linear-gradient(transparent, red);
-    bottom: 0%
-}
-
 .content_text {
     position: sticky;
     top: 18%;
