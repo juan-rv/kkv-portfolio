@@ -5,6 +5,7 @@ import SecondComponent from "../components/SecondComponent";
 import TheBand from "../components/TheBand";
 import Trayectoria from "../components/Trayectoria";
 import Footer from "../components/Footer";
+import Backline from "../components/Backline";
 
 const Rutas = () => {
   return (
@@ -17,6 +18,7 @@ const Rutas = () => {
       <TheBand />
       <div className="division"></div>
       <Trayectoria />
+      <Backline />
       <Footer />
     </div>
   );

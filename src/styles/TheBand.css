@@ -78,3 +78,7 @@
 .second_content strong {
     color: #55dcdb;
 }
+
+.second_content img {
+    width: 50%;
+}
