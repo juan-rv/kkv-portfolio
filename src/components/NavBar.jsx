@@ -37,17 +37,17 @@ const HeaderNav = () => {
               {t("nav.home")}
             </a>
             <a title="bio" href="#bio" onClick={() => handleLink("bio")}>
-              bio
+              {t("nav.bio")}
             </a>
             <a title="band" href="#band" onClick={() => handleLink("band")}>
-              the band
+              {t("nav.band")}
             </a>
             <a
               title="trayectoria"
               href="#trayectoria"
               onClick={() => handleLink("trayectoria")}
             >
-              Trayectoria
+              {t("nav.trajectory")}
             </a>
 
             <a
@@ -55,7 +55,7 @@ const HeaderNav = () => {
               href="#plataformas"
               onClick={() => handleLink("plataformas")}
             >
-              plataformas
+              {t("nav.platforms")}
             </a>
           </ul>
         </nav>

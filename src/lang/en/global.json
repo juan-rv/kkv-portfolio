@@ -1,6 +1,16 @@
 {
     "nav": {
-        "home": "Home"
+        "home": "Home",
+        "bio" : "Biography",
+        "band" : "The Band",
+        "trajectory" : "Trajectory",
+        "platforms" : "Platforms"
+    },
+    "biography": {
+        "title": "Biography",
+        "first_st": "born in usme, south of bogota/colombia",
+        "first_p" : " Since 2019 we have been in constant search of our own sound, we work to nurture the idea of music as an emotional journey. That's why we look for sounds that make us feel more",
+        "second_st" : "Latin Americans."
 
     }
 }

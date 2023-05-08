@@ -1,6 +1,16 @@
 {
     "nav": {
-        "home": "Inicio"
+        "home": "Inicio",
+        "bio" : "Biografía",
+        "band" : "La Banda",
+        "trajectory" : "Trayectoria",
+        "platforms" : "Plataformas"
+    },
+    "biography": {
+        "title": "Biografía",
+        "first_st": " nace en usme, localidad al sur de bogotá/colombia",
+        "first_p" : "; y desde el año 2019 hemos estado en la busqueda constante de un sonido propio, trabajamos por alimentar la idea de la música como un viaje emocional. Por eso indagamos en sonidos que nos haga sentir mas ",
+        "second_st" : "Latinoamericanos."
 
     }
 }

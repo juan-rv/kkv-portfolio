@@ -1,32 +1,27 @@
 import React, { useRef } from "react";
 import Plx from "react-plx";
+import { useTranslation } from "react-i18next";
 import agrupacion from "../assets/agrupacion.jpeg";
 import "../styles/SecondComponent.css";
 
 const SecondComponent = () => {
   const sectionRef = useRef();
-
   const headingParalaxData = [];
+
+  const [t, i18n] = useTranslation("global");
 
   return (
     <div className="all_content" id="bio" ref={sectionRef}>
       <Plx className="content_second" parallaxData={headingParalaxData}>
         <div className="blur-text">
           <div className="title_bio">
-            <h1>Biografía</h1>
+            <h1>{t("biography.title")}</h1>
           </div>
           <div className="p_bio">
             <p>
-              kingkong five{" "}
-              <strong>
-                {" "}
-                nace en usme, localidad al sur de bogotá/colombia
-              </strong>
-              ; y desde el año 2019 hemos estado en la busqueda constante de un
-              sonido propio, trabajamos por alimentar la idea de la música como
-              un viaje emocional. Por eso indagamos en sonidos que nos haga
-              sentir mas
-              <strong> latinoamericanos.</strong>
+              kingkong five <strong>{t("biography.first_st")}</strong>
+              {t("biography.first_p")}
+              <strong> {t("biography.second_st")}</strong>
             </p>
             <p>
               <strong>
