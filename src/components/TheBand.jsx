@@ -1,5 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/TheBand.css";
@@ -13,6 +14,20 @@ import seis from "../assets/live/6.jpg";
 
 const TheBand = () => {
   const sectionRef = useRef();
+
+  const [t, i18n] = useTranslation("global");
+
+  function changeLanguage(lang) {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("language", lang);
+  }
+
+  useEffect(() => {
+    const language = localStorage.getItem("language");
+    if (language) {
+      i18n.changeLanguage(language);
+    }
+  }, [i18n]);
 
   const settings = {
     autoplay: true,
@@ -51,35 +66,35 @@ const TheBand = () => {
       </div>
 
       <div className="second_content">
-        <h2>The Band</h2>
+        <h2>{t("theBand.title")}</h2>
         <ul>
           <li>
             {" "}
-            Andres Vargas - <strong>Vocalista</strong>
+            Andres Vargas - <strong>{t("theBand.vocalist")}</strong>
           </li>
           <li>
             {" "}
-            Fernando Arango - <strong>Bajista</strong>
+            Fernando Arango - <strong>{t("theBand.bassist")}</strong>
           </li>
           <li>
             {" "}
-            Joan Torres - <strong>Baterista</strong>
+            Joan Torres - <strong>{t("theBand.drummer")}</strong>
           </li>
           <li>
             {" "}
-            Jesus Marquez - <strong>Guitarrista</strong>
+            Jesus Marquez - <strong>{t("theBand.guitarrist")}</strong>
           </li>
           <li>
             {" "}
-            Juan Rodriguez - <strong>Pianista</strong>
+            Juan Rodriguez - <strong>{t("theBand.pianist")}</strong>
           </li>
           <li>
             {" "}
-            Fernando Martinez - <strong>Saxofonista</strong>
+            Fernando Martinez - <strong>{t("theBand.saxophonist")}</strong>
           </li>
           <li>
             {" "}
-            Fabian Salazar - <strong>Saxofonista</strong>
+            Fabian Salazar - <strong>{t("theBand.saxophonist")}</strong>
           </li>
         </ul>
         <img src={logo} alt="logo" />

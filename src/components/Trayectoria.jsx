@@ -1,5 +1,7 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -30,6 +32,20 @@ import "../styles/Trayectoria.css";
 const Trayectoria = () => {
   const sectionRef = useRef();
 
+  const [t, i18n] = useTranslation("global");
+
+  function changeLanguage(lang) {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("language", lang);
+  }
+
+  useEffect(() => {
+    const language = localStorage.getItem("language");
+    if (language) {
+      i18n.changeLanguage(language);
+    }
+  }, [i18n]);
+
   const settings = {
     autoplay: true,
     autoplaySpeed: 60,
@@ -44,7 +60,7 @@ const Trayectoria = () => {
   return (
     <div className="trayectoria" id="trayectoria" ref={sectionRef}>
       <div className="info_trayectoria">
-        <h1> Trayectoria</h1>
+        <h1>{t("trajectory.title")}</h1>
         <ul>
           <li>
             <strong>02/2016</strong>

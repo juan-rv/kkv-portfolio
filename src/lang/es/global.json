@@ -17,5 +17,17 @@
         "four_p" :"Podrán disfrutar de una mezcla de diferentes influencias musicales que han marcado nuestro nacimiento",
         "five_p" : "Sean bienvenidos y buen viaje",
         "four_st": "'King Kong Five en la actualidad está trabajando en su primer ep.'"
+    },
+    "theBand": {
+        "title":"La banda",
+        "vocalist":"Vocalista",
+        "bassist" : "Bajista",
+        "drummer" : "Baterista",
+        "guitarrist"  : "Guitarrista",
+        "pianist" : "Pianista",
+        "saxophonist": "Saxofonista"
+    },
+    "trajectory" : {
+        "title": "trayectoria"
     }
 }

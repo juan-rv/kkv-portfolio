@@ -17,5 +17,17 @@
         "four_p" :"You will be able to enjoy a mixture of different musical influences that have marked our birth.",
         "five_p" : "Welcome and bon voyage",
         "four_st": "'King Kong Five is currently working on their first ep.'"
+    },
+    "theBand": {
+        "title":"The band",
+        "vocalist":"vocalist",
+        "bassist" : "bassist",
+        "drummer" : "drummer",
+        "guitarrist"  : "guitarrist",
+        "pianist" : "pianist",
+        "saxophonist": "saxophonist"
+    },
+    "trajectory" : {
+        "title": "trajectory"
     }
 }
