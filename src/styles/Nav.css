@@ -1,50 +1,36 @@
+@font-face {
+    font-family: 'kingkongtexto';
+    src: url('../fonts//ZZYZX.TTF');
+}
+
 .header {
     display: flex;
     align-items: center;
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0.5);
-    opacity: 0.8;
-    backdrop-filter: blur(10px);
-    color: rgb(207, 0, 0);
-    position: fixed;
+    justify-content: center;
+    height: 80px;
     width: 100%;
-    z-index: 100000;
+    z-index: 1000;
+    background: black;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.685);
+    position: fixed;
+
+
+
 }
 
-
-
-
-
-.first_nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  -webkit-transition: 3s;
-  transition: 3s;
-  width: 100%;
-  margin: 0
-  
-}
-
-.first_nav img {
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
-    margin-left: 20px;
-}
-
-.first_nav h3 {
-    margin-left: 10px;
-    font-weight: 500;
-}
-.first_nav h3:hover {
-    color: rgb(186,187,189);
-}
+.header img {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 20%;
+ }
 
 
 .nav {
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav ul {
@@ -56,26 +42,30 @@
     align-items: center; 
     list-style: none;
     margin: 0 auto;
-    ;
 
 }
 
 .nav a {
-    font-weight: 400;
-    font-size: 17px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.nav  a {
-    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'kingkongtexto';
+    margin-left: 30px;
     text-decoration: none;
-    transition: all 300ms;
+    color: white;
 }
 
-.nav li a:hover {
-    color: rgb(186,187,189);
+.icons { 
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.icons a {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+
 
 .nav .active {
     color: rgb(186,187,189);
@@ -83,18 +73,9 @@
     border-bottom: solid 2px rgb(186,187,189) ;
 }
 
-.buttons_lang {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.buttons_lang img {
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
-    cursor: pointer;
-}
+
+
 
 .espa.active img,
 .eng.active img {
@@ -103,31 +84,3 @@
 
 
 
-/* responsive design for mobile */
-
-@media (max-width: 767px) { 
-
-    .header {
-        display: none;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1034px) {
-   
-    
-    .header {
-        display: grid;
-        grid-template-columns: 80% 20%;
-
-    }
-
-    .first_nav {
-        display: none;
-    }
-    
-    .buttons_lang {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
