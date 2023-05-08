@@ -29,6 +29,14 @@ const HeaderNav = () => {
             >
               Trayectoria
             </a>
+
+            <a
+              title="plataformas"
+              href="#plataformas"
+              onClick={() => handleLink("plataformas")}
+            >
+              plataformas
+            </a>
           </ul>
         </nav>
       </div>

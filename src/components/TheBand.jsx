@@ -63,7 +63,7 @@ const TheBand = () => {
           </li>
           <li>
             {" "}
-            Joan Torres - <strong>Bajista</strong>
+            Joan Torres - <strong>Baterista</strong>
           </li>
           <li>
             {" "}
