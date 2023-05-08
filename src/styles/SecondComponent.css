@@ -37,7 +37,7 @@
   display: block;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 10ch;
+  width: 11ch;
   animation: typing 2s steps(12),
   blink 1s infinite step-end alternate;
   overflow: hidden;
@@ -68,6 +68,7 @@
   color: black;
   margin: 0;
   font-size: 19px;
+  margin-bottom: 3px;
 }
 
 .p_bio strong {

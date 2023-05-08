@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Plx from "react-plx";
 import { useTranslation } from "react-i18next";
 import agrupacion from "../assets/agrupacion.jpeg";
@@ -9,6 +9,18 @@ const SecondComponent = () => {
   const headingParalaxData = [];
 
   const [t, i18n] = useTranslation("global");
+
+  function changeLanguage(lang) {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("language", lang);
+  }
+
+  useEffect(() => {
+    const language = localStorage.getItem("language");
+    if (language) {
+      i18n.changeLanguage(language);
+    }
+  }, [i18n]);
 
   return (
     <div className="all_content" id="bio" ref={sectionRef}>
@@ -24,17 +36,11 @@ const SecondComponent = () => {
               <strong> {t("biography.second_st")}</strong>
             </p>
             <p>
-              <strong>
-                "King Kong Five en vivo" es una experiencia musical
-              </strong>
-              , un viaje que se ha caracterizado por mezclar ritmos de percusión
-              latina como la cumbia, merengue y salsa llevandolos a géneros como
-              el ska y el reggae.
+              <strong>{t("biography.third_st")}</strong>
+              {t("biography.second_p")}
             </p>
             <p>
-              A la agrupación se le ha convocado en diferentes escenarios;
-              compartiendo tarima con artistas y bandas de la escena distrital y
-              nacional como:{" "}
+              {t("biography.third_p")}
               <strong>
                 {" "}
                 yoki barrios la familia & el barragán, ras jahonnann, barbero
@@ -43,18 +49,12 @@ const SecondComponent = () => {
               </strong>
             </p>
 
-            <p>
-              Podrán disfrutar de una mezcla de diferentes influencias musicales
-              que han marcado nuestro nacimiendo
-            </p>
+            <p>{t("biography.four_p")}</p>
 
-            <p>Sean bienvenid@s y buen viaje</p>
+            <p>{t("biography.five_p")}</p>
 
             <p>
-              <strong>
-                "King Kong Five en la actualidad está trabajando en su primer
-                ep."
-              </strong>
+              <strong>{t("biography.four_st")}</strong>
             </p>
           </div>
         </div>
