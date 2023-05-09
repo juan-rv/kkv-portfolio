@@ -14,7 +14,7 @@ import ingles from "../assets/jamaica.png";
 import "../styles/Nav.css";
 
 const HeaderNav = () => {
-  const [active, setActive] = useState("home");
+  const [active, setActive] = useState("intro");
 
   const scrollTo = useScrollInto();
 
