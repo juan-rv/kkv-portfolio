@@ -13,6 +13,7 @@ const Rutas = () => {
   return (
     <div>
       <HeaderNav />
+      <MusicDos />
       <Intro />
       <div className="division"></div>
       <SecondComponent />
@@ -24,7 +25,6 @@ const Rutas = () => {
       <Plataformas />
       <div className="division"></div>
       <Backline />
-      <MusicDos />
       <Footer />
     </div>
   );

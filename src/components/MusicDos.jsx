@@ -66,7 +66,7 @@ const MusicDos = () => {
       <h2>Playing Now</h2>
       <img className="musicCover" src="https://picsum.photos/200/200" />
       <div>
-        <h3 className="title">Rubaiyyan</h3>
+        <h3 className="title">Me HAces Dan</h3>
         <p className="subTitle">Qala</p>
       </div>
       <div>
