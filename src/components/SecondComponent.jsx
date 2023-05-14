@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import Plx from "react-plx";
 import { useTranslation } from "react-i18next";
 import agrupacion from "../assets/agrupacion.jpeg";
+
 import "../styles/SecondComponent.css";
 
 const SecondComponent = () => {
