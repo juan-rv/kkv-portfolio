@@ -1,8 +1,10 @@
 .all_content {
-  background: linear-gradient(rgba(112, 117, 134, 0.445), rgba(60, 63, 73, 0.548)), url("../assets/papel.jpg");
+  /* background: linear-gradient(rgba(112, 117, 134, 0.445), rgba(60, 63, 73, 0.548)), url("../assets/papel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 90vh; */
   height: 90vh;
+  background: black;
 }
 @font-face {
   font-family: 'kingkong';
@@ -26,7 +28,7 @@
 }
 .title_bio h1 {
   background: #55dcdb;
-  color: black;
+  color: aliceblue;
   font-family: kingkong;
   text-transform: uppercase;
   float: left;
@@ -65,19 +67,19 @@
   text-align: justify;
   font-family: 'kingkong';
   text-transform: uppercase;
-  color: black;
+  color: white;
   margin: 0;
   font-size: 19px;
   margin-bottom: 3px;
 }
 
 .p_bio strong {
-   color: #55dcdb 
+  color: #8DDEDC;
 }
 
 .blur-img {
   position: sticky;
-  z-index: 999;
+  z-index: 100;
   margin: auto;
 }
 
@@ -85,7 +87,7 @@
   width: 550px;
   margin-bottom: 50px;
   border-radius: 5px;
-   box-shadow: 10px 10px 30px #1e535394 ;
+  box-shadow: 10px 10px 30px #1e535394 ;
 }
 
 
