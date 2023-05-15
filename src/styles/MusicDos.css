@@ -3,7 +3,7 @@
     src: url('../fonts//ZZYZX.TTF');
 }
 
-.component { 
+.component {
   background-color: black;
   margin-left: auto;
   margin-right: auto;
@@ -20,6 +20,12 @@
   font-family: 'kingkongtexto';
   border-bottom: 0.5px solid #8DDEDC;
   box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  position: fixed;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
 }
 
 

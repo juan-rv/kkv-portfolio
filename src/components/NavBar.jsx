@@ -8,6 +8,7 @@ import {
   FaFacebook,
   FaTiktok,
 } from "react-icons/fa";
+
 import logo from "../assets/logoPrincipalBlanco.png";
 import espanol from "../assets/colombia.png";
 import ingles from "../assets/jamaica.png";
@@ -127,7 +128,7 @@ const HeaderNav = () => {
           <img className="flag" src={ingles} alt="ingles" />
         </buttom>
       </div>
-    </div>
+      </div>
   );
 };
 export default HeaderNav;
