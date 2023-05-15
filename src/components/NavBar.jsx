@@ -81,11 +81,18 @@ const HeaderNav = () => {
           </a>
 
           <a
-            title="plataformas"
-            href="#plataformas"
-            onClick={() => handleLink("plataformas")}
+            title="backLine"
+            href="#backLine"
+            onClick={() => handleLink("backLine")}
           >
-            {t("nav.platforms")}
+            BackLine
+          </a>
+          <a
+            title="contacto"
+            href="#contacto"
+            onClick={() => handleLink("contacto")}
+          >
+            Contacto
           </a>
           <div className="icons">
             <a href="">

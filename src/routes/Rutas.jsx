@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import Backline from "../components/Backline";
 
 import MusicDos from "../components/MusicDos";
+import Contacto from "../components/Contacto";
 
 const Rutas = () => {
   return (
@@ -25,6 +26,7 @@ const Rutas = () => {
 \
       <div className="division"></div>
       <Backline />
+      <Contacto/>
       <Footer />
     </div>
   );
