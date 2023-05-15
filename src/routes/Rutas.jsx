@@ -6,7 +6,7 @@ import TheBand from "../components/TheBand";
 import Trayectoria from "../components/Trayectoria";
 import Footer from "../components/Footer";
 import Backline from "../components/Backline";
-import Plataformas from "../components/Plataformas";
+
 import MusicDos from "../components/MusicDos";
 
 const Rutas = () => {
@@ -22,7 +22,7 @@ const Rutas = () => {
       <div className="division"></div>
       <Trayectoria />
       <div className="division"></div>
-      <Plataformas />
+\
       <div className="division"></div>
       <Backline />
       <Footer />
