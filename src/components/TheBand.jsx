@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../styles/TheBand.css";
-import logo from "../assets/logo_big.png";
+import logo from "../assets/logoPrincipalBlanco.png";
 import uno from "../assets/live/1.jpeg";
 import dos from "../assets/live/2.jpg";
 import tres from "../assets/live/3.jpg";

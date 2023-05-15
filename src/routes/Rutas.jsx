@@ -16,15 +16,11 @@ const Rutas = () => {
       <HeaderNav />
       <MusicDos />
       <Intro />
-      <div className="division"></div>
+
       <SecondComponent />
-      <div className="division"></div>
       <TheBand />
-      <div className="division"></div>
       <Trayectoria />
-      <div className="division"></div>
-\
-      <div className="division"></div>
+
       <Backline />
       <Contacto/>
       <Footer />
