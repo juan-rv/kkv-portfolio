@@ -26,7 +26,7 @@ import diezyocho from "../assets/flyers/18.jpeg";
 import diezynueve from "../assets/flyers/19.jpeg";
 import veinte from "../assets/flyers/20.jpeg";
 
-import logo from "../assets/logo_big.png";
+import logo from "../assets/logoPrincipalBlanco.png";
 import "../styles/Trayectoria.css";
 
 const Trayectoria = () => {
@@ -58,148 +58,150 @@ const Trayectoria = () => {
   };
 
   return (
-    <div className="trayectoria" id="trayectoria" ref={sectionRef}>
-      <div className="info_trayectoria">
-        <h1>{t("trajectory.title")}</h1>
-        <ul>
-          <li>
-            <strong>02/2016</strong>
-            Noche de Ska & Reggae
-          </li>
-          <li>
-            <strong>02/2016</strong>V festival circo/cultural
-          </li>
-          <li>
-            <strong>11/2017</strong>
-            El Frailejon
-          </li>
-          <li>
-            <strong>12/2017</strong>
-            Rumba Navideña gansters
-          </li>
-          <li>
-            <strong>01/2018</strong>
-            festival reyes magos
-          </li>
-          <li>
-            <strong>04/2018</strong>
-            ii festival de artes el camello
-          </li>
-          <li>
-            <strong>06/2021</strong>
-            Puente de la dignidad
-          </li>
-          <li>
-            <strong>06/2021</strong>
-            Arte vida y dignidad
-          </li>
-          <li>
-            <strong>11/2021</strong>
-            La joda del Fracking #2
-          </li>
-          <li>
-            <strong>01/2022</strong>
-            Festival reyes magos
-          </li>
-          <li>
-            <strong>02/2022</strong>
-            Festival usmeka
-          </li>
-          <li>
-            <strong>12/2022</strong>
-            ska christmas fest
-          </li>
-          <li>
-            <strong>02/2023</strong>
-            Rock at night vol. 9
-          </li>
-        </ul>
-        <img src={logo} alt="logo kkv" />
+    <div className="contentTrayectoria">
+      <div className="trayectoria" id="trayectoria" ref={sectionRef}>
+        <div className="info_trayectoria">
+          <h1>{t("trajectory.title")}</h1>
+          <ul>
+            <li>
+              <strong>02/2016</strong>
+              Noche de Ska & Reggae
+            </li>
+            <li>
+              <strong>02/2016</strong>V festival circo/cultural
+            </li>
+            <li>
+              <strong>11/2017</strong>
+              El Frailejon
+            </li>
+            <li>
+              <strong>12/2017</strong>
+              Rumba Navideña gansters
+            </li>
+            <li>
+              <strong>01/2018</strong>
+              festival reyes magos
+            </li>
+            <li>
+              <strong>04/2018</strong>
+              ii festival de artes el camello
+            </li>
+            <li>
+              <strong>06/2021</strong>
+              Puente de la dignidad
+            </li>
+            <li>
+              <strong>06/2021</strong>
+              Arte vida y dignidad
+            </li>
+            <li>
+              <strong>11/2021</strong>
+              La joda del Fracking #2
+            </li>
+            <li>
+              <strong>01/2022</strong>
+              Festival reyes magos
+            </li>
+            <li>
+              <strong>02/2022</strong>
+              Festival usmeka
+            </li>
+            <li>
+              <strong>12/2022</strong>
+              ska christmas fest
+            </li>
+            <li>
+              <strong>02/2023</strong>
+              Rock at night vol. 9
+            </li>
+          </ul>
+        </div>
+        <div className="info_dos_trayectoria">
+          <Slider {...settings}>
+            <div>
+              {" "}
+              <img src={uno} alt="uno" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={dos} alt="dos" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={tres} alt="tres" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={cuatro} alt="cuatro" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={cinco} alt="cinco" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={seis} alt="seis" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={siete} alt="siete" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={ocho} alt="ocho" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={nueve} alt="nueve" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={diez} alt="diez" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={once} alt="once" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={doce} alt="doce" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={trece} alt="trece" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={catorce} alt="catorce" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={quince} alt="quince" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={diezyseis} alt="diezyseis" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={diezysiete} alt="diezysiete" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={diezyocho} alt="diezyocho" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={diezynueve} alt="diezynueve" />{" "}
+            </div>
+            <div>
+              {" "}
+              <img src={veinte} alt="veinte" />{" "}
+            </div>
+          </Slider>
+        </div>
       </div>
-      <div className="info_dos_trayectoria">
-        <Slider {...settings}>
-          <div>
-            {" "}
-            <img src={uno} alt="uno" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={dos} alt="dos" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={tres} alt="tres" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={cuatro} alt="cuatro" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={cinco} alt="cinco" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={seis} alt="seis" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={siete} alt="siete" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={ocho} alt="ocho" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={nueve} alt="nueve" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={diez} alt="diez" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={once} alt="once" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={doce} alt="doce" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={trece} alt="trece" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={catorce} alt="catorce" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={quince} alt="quince" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={diezyseis} alt="diezyseis" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={diezysiete} alt="diezysiete" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={diezyocho} alt="diezyocho" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={diezynueve} alt="diezynueve" />{" "}
-          </div>
-          <div>
-            {" "}
-            <img src={veinte} alt="veinte" />{" "}
-          </div>
-        </Slider>
-      </div>
+        <img src={logo} alt="logo kkv" className="logo_img"/>
     </div>
   );
 };
