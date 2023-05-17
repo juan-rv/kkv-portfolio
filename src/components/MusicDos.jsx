@@ -15,6 +15,15 @@ import "../styles/MusicDos.css";
 
 const MusicDos = () => {
 
+
+  const getYear = () => {
+    const fecha = new Date();
+    const year = fecha.getFullYear();
+    return year;
+  }
+
+  const actual = getYear()
+
   const songs = [
     {
       title: "Me haces Dano",
@@ -79,7 +88,14 @@ const MusicDos = () => {
 
 
   return (
-    <div className="component">
+    <div className="footer">
+      <div className="textFooter">
+        <p>Copyright &copy; {actual} - Todos los derechos Reservados.</p>
+        <p>Este sitio web es propiedad y administrado por <strong>King Kong Five</strong></p>
+      </div>
+      <div className="component">
+
+
       <div className="musicCover">
         <img src={currentSong.cover} alt="cover" />
       </div>
@@ -90,29 +106,30 @@ const MusicDos = () => {
 
       <div className="buttonsMusic">
         <button className="playButton" onClick={playPreviousSong}>
-          <IconContext.Provider value={{ size: "17px", color: "#000000" }}>
+          <IconContext.Provider value={{ size: "30px" }}>
             <BiSkipPrevious />
           </IconContext.Provider>
         </button>
         {!isPlaying ? (
           <button className="playButton" onClick={playingButton}>
-            <IconContext.Provider value={{ size: "17px", color: "#000000" }}>
+            <IconContext.Provider value={{ size: "30px"}}>
               <AiFillPlayCircle />
             </IconContext.Provider>
           </button>
         ) : (
           <button className="playButton" onClick={playingButton}>
-            <IconContext.Provider value={{ size: "17px", color: "#000000" }}>
+            <IconContext.Provider value={{ size: "30px"}}>
               <AiFillPauseCircle />
             </IconContext.Provider>
           </button>
         )}
         <button className="playButton" onClick={playNextSong}>
-          <IconContext.Provider value={{ size: "17px", color: "#000000" }}>
+          <IconContext.Provider value={{ size: "30px" }}>
             <BiSkipNext />
           </IconContext.Provider>
         </button>
-      </div>
+        </div>
+        </div>
     </div>
   );
 };
