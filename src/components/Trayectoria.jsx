@@ -26,7 +26,7 @@ import diezyocho from "../assets/flyers/18.jpeg";
 import diezynueve from "../assets/flyers/19.jpeg";
 import veinte from "../assets/flyers/20.jpeg";
 
-import logo from "../assets/logoPrincipalBlanco.png";
+import logo from "../assets/logoBlanco.png";
 import "../styles/Trayectoria.css";
 
 const Trayectoria = () => {
