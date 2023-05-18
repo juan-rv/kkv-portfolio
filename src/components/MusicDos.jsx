@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import useSound from "use-sound";
+import { useTranslation } from "react-i18next";
 import { AiFillPauseCircle, AiFillPlayCircle } from "react-icons/ai";
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
@@ -15,6 +16,7 @@ import "../styles/MusicDos.css";
 
 const MusicDos = () => {
 
+  const [t, i18n] = useTranslation("global");
 
   const getYear = () => {
     const fecha = new Date();
@@ -90,8 +92,8 @@ const MusicDos = () => {
   return (
     <div className="footer">
       <div className="textFooter">
-        <p>Copyright &copy; {actual} - Todos los derechos Reservados.</p>
-        <p>Este sitio web es propiedad y administrado por <strong>King Kong Five</strong></p>
+        <p>Copyright &copy; {actual} - {t("footer.text_one") }</p>
+        <p>{t("footer.text_two") } <strong>King Kong Five</strong></p>
       </div>
       <div className="component">
 

@@ -29,5 +29,9 @@
     },
     "trajectory" : {
         "title": "trayectoria"
+    },
+    "footer" : {
+        "text_one" : "Todos los derechos Reservados.",
+        "text_two" : "Este sitio web es propiedad y administrado por"
     }
 }

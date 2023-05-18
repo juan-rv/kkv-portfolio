@@ -29,5 +29,9 @@
     },
     "trajectory" : {
         "title": "trajectory"
+    },
+    "footer" : {
+        "text_one" : "All rights reserved.",
+        "text_two" : "This website is owned and operated by"
     }
 }
