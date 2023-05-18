@@ -1,0 +1,9 @@
+.contacto {
+    background: #000;
+    color: aliceblue;
+    height: 100vh;
+}
+
+.contacto h1 {
+    margin: 0;
+}
