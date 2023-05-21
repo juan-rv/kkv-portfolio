@@ -34,7 +34,7 @@ const Intro = () => {
               animate={{ opacity: scrubPercent >= 20 ? 1 : 0 }}
               className="to"
             >
-              To
+              TO
             </H1>
             <motion.img
               className="logo_uno"
