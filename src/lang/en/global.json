@@ -33,5 +33,35 @@
     "footer" : {
         "text_one" : "All rights reserved.",
         "text_two" : "This website is owned and operated by"
-    }
+    },
+    "backline" :{
+        "audio_sala" : "audio room",
+        "audio_salap" : "Professional System with the following features:",
+        "audio_sala_li_uno" : "2 way minimum stereo 110 db average FOH, no major drop.",
+        "audio_sala_li_dos" : "Professional Systems, suggested brands: DAS, JBL, ElectroVoice.",
+        "consolas" : "Suggested consoles",
+        "text_consola": "8 GROUP, 4 PARAMETRIC BANDS AND AT LEAST 8 AUXILIARY PRE/POST AND INSET POINT ON ALL CHANNELS AND SUBGROUPS.",
+        "procesador" : "ANALOG CONSOLE MIXING PROCESSORS",
+        "procesador_li": "1 YAMAHA LEXICON MULTI-EFFECTS PROCESSOR, TC",
+        "procesador_li_dos" : "2 equalizer ashly gqx stereo",
+        "backline": "guitar",
+        "guitarra": "2 X 100W AMPLIFIERS RESPECTIVELY",
+        "bass": "bass",
+        "bass_text" : "LANEY AMPLIFIER SYSTEM 4 X 10 WITH 1 X 15 BI AMPLIFIED 500W MINIMUM.",
+        "Bateria" : "drums",
+        "obligatorio":"MANDATORY",
+        "base":"PIANO BASE",
+        "hidratacion":"hydration",
+        "proyeccion":"VISUAL PROJECTION OF THE GROUP'S OFFICIAL IMAGES",
+        "atriles":"lecterns",
+        "mezcla_uno":"5 MONITOR MIXES",
+        "mezcla_dos":"MIX 1 (1 LOUDSPEAKER MIN 1000 W EACH)",
+        "mezcla_tres":"MIX 2 (1 LOUDSPEAKER MIN 1000 W EACH)",
+        "mezcla_cuatro":"MIX 3 & 4 (2-WAY SYSTEM OR MINIMUM FULLRANGE WITH SUB)",
+        "mezcla_cinco":"MIX 5 (DRUMS)",
+        "mezcla_seis":"3 ASHLY GQX STEREO EQUALIZERS",
+        "mezcla_siete":"1 YAMAHA MULTI-EFFECTS PROCESSOR",
+        "registro":"AUDIO VISUAL AND PHOTOGRAPHIC RECORD",
+        "registro_text":"THE EVENT ORGANIZERS ALSO AUTHORIZE THE BAND TO TAKE PHOTOGRAPHS AND AUDIO AND/OR VIDEO RECORDINGS BEFORE, DURING AND AFTER THE PERFORMANCE ON THE STAGE AND IN THE PRESS AREA, OR FOR ANY OTHER USE THAT THE BAND DEEMS APPROPRIATE."
+}
 }

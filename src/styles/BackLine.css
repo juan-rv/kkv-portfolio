@@ -11,7 +11,7 @@
 .backline {
     background: black;
     margin: 0;
-    height: 170vh;
+    height: 125vh;
     text-transform: uppercase;
     padding-top: 100px;
     color: whitesmoke;
@@ -53,6 +53,20 @@
     font-family: 'kingkong';
 }
 
+.logoBack {
+    height: 100px;
+    margin: 0;
+    position: relative;
+}
+
+.logoBack img {
+    width: 65%;
+    margin: 0;
+    position: relative;
+    bottom: 90px;
+
+}
+
 .backIzq {
     font-family: 'kingkongtexto';
 
@@ -82,8 +96,8 @@
 
 
 .backDer {
-    padding-top: 80px;
     font-family: 'kingkongtexto';
+    
 }
 
 .backDer ul {
@@ -99,9 +113,22 @@
     text-align: left;
 }
 
-.backDer h4 {
-    text-align: justify;
+.register h3 {
+    color: #8DDEDC;
+        text-align: left;
+        margin-left: 50px;
+        margin-bottom: 5px;
+        font-size: 23px;
+        font-weight: 800;
+        font-family: 'kingkong';
+        text-align: center;
+}
+
+.register h4 {
+    text-align: center;
     margin: 0;
     padding-top: 0;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'kingkong';
 }

@@ -1,31 +1,42 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
+import logo from "../assets/logoPrincipalBlanco.png";
+
 import "../styles/BackLine.css";
 
 const Backline = () => {
   const sectionRef = useRef();
+  const [t, i18n] = useTranslation("global");
+
+  function changeLanguage(lang) {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("language", lang);
+  }
+
+  useEffect(() => {
+    const language = localStorage.getItem("language");
+    if (language) {
+      i18n.changeLanguage(language);
+    }
+  }, [i18n]);
 
   return (
     <div className="backline" id="backLine" ref={sectionRef}>
-      <div className="backText">
-        <h1>BackLine</h1>
-      </div>
       <div className="back">
         <div className="backIzq">
+          <div className="logoBack">
+            <img src={logo} alt="logo" />
+          </div>
           <div className="a">
-            <h3>Audio Sala</h3>
-            <p>Sistema Profesional con las siguientes caracteristicas:</p>
+            <h3>{t("backline.audio_sala")}</h3>
+            <p>{t("backline.audiosalap")}</p>
             <ul>
-              <li>
-                2 vias minimo estereo 110 db promedio en FOH, sin Caida mayor.
-              </li>
-              <li>
-                Sistemas Profesionales, marcas sugeridas: DAS, JBL, Electro
-                Voice.
-              </li>
+              <li>{t("backline.audio_sala_li_uno")}</li>
+              <li>{t("backline.audio_sala_li_dos")}</li>
             </ul>
           </div>
           <div className="b">
-            <h3>Consolas Sugeridas</h3>
+            <h3>{t("backline.consolas")}</h3>
             <ul>
               <li>m7cl,ls9</li>
               <li>tascam dm4800</li>
@@ -33,68 +44,63 @@ const Backline = () => {
               <li>chrest min 32ch</li>
               <li>mackie min 32ch</li>
             </ul>
-            <p>
-              8 grupo, 4 bandas parametricas y minimo 8 auxiliares pre/post e
-              inset point en todos los canales y subgrupos.
-            </p>
+            <p>{t("backline.text_consola")}</p>
           </div>
           <div className="c">
-            <h3>Procesadores de Mezcla consola Analoga</h3>
+            <h3>{t("backline.procesador")}</h3>
             <ul>
-              <li>2 ecualizador ashly gqx estereo</li>
-              <li>1 procesador multiefectos yamaha lexicon, tc</li>
-            </ul>
-          </div>
-          <div className="d">
-            <h3>Monitor</h3>
-            <ul>
-              <li>5 mezclas de monitores</li>
-              <li>mezcla 1 (1 altavoz min 1000 w c/u)</li>
-              <li>mezcla 2 (1 altavoz min 1000 w c/u)</li>
-              <li>mezcla 3 & 4 (sistema 2 vias o minimo fullrange con sub)</li>
-              <li>mezcla 5 (bateria)</li>
-              <li> 3 ecualizadores ashly gqx estereo</li>
-              <li>1 procesador multiefectos yamaha</li>
+              <li>{t("backline.procesador_li")}</li>
+              <li>{t("backline.procesador_li_dos")}</li>
             </ul>
           </div>
         </div>
 
         <div className="backDer">
+          <div className="backText">
+            <h1>BackLine</h1>
+          </div>
           <div>
             <h3>BackLine</h3>
             <ul>
               <li>
-                <strong>Guitarra: </strong> 2 Amplificadores de 100w
-                respectivamente
+                <strong>{t("backline.backline")}</strong>{" "}
+                {t("backline.guitarra")}
               </li>
               <li>
-                <strong>Bajo: </strong>Amplificador laney sistema 4 X 10 con 1 X
-                15 bi amplificado 500W minimo.
+                <strong>{t("backline.bass")} </strong>
+                {t("backline.bass_text")}
               </li>
               <li>
-                <stron>Bateria: </stron>Yamaha, mapex alta Gama.
+                <stron>{t("backline.bateria")}</stron>Yamaha, mapex alta Gama.
               </li>
             </ul>
           </div>
           <div>
-            <h3>Obligatorio</h3>
+            <h3>{t("backline.obligatorio")}</h3>
             <ul>
-              <li>Base para piano</li>
-              <li>Hidratacion</li>
-              <li>Proyeccion visual de imagenes ofificiales del grupo</li>
-              <li>Atriles</li>
+              <li>{t("backline.base")}</li>
+              <li>{t("backline.hidratacion")}</li>
+              <li>{t("backline.proyeccion")}</li>
+              <li>{t("backline.atriles")}</li>
             </ul>
           </div>
-          <div>
-            <h3>Registro audio Visual y fotograficos</h3>
-            <h4>
-              La organizacion del evento ademas autoriza a la banda a realizar
-              fotografias y grabaciones en audio y/o video, antes, durante y
-              despues de la presentacion en la tarima y zona de prensa, oara los
-              usos que la banda estime convenientes.
-            </h4>
+          <div className="d">
+            <h3>Monitor</h3>
+            <ul>
+              <li>{t("backline.mezcla_uno")}</li>
+              <li>{t("backline.mezcla_dos")}</li>
+              <li>{t("backline.mezcla_tres")}</li>
+              <li>{t("backline.mezcla_cuatro")}</li>
+              <li>{t("backline.mezcla_cinco")}</li>
+              <li>{t("backline.mezcla_seis")}</li>
+              <li>{t("backline.mezcla_siete")}</li>
+            </ul>
           </div>
         </div>
+      </div>
+      <div className="register">
+        <h3>{t("backline.registro")}</h3>
+        <h4>{t("backline.registro_text")}</h4>
       </div>
     </div>
   );

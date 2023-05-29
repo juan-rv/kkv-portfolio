@@ -33,5 +33,35 @@
     "footer" : {
         "text_one" : "Todos los derechos Reservados.",
         "text_two" : "Este sitio web es propiedad y administrado por"
+    },
+    "backline" :{
+        "audio_sala" : "audio sala",
+        "audio_salap" : "Sistema Profesional con las siguientes caracteristicas:",
+        "audio_sala_li_uno" : "2 vias minimo estereo 110 db promedio en FOH, sin Caida mayor.",
+        "audio_sala_li_dos" : "  Sistemas Profesionales, marcas sugeridas: DAS, JBL, ElectroVoice.",
+        "consolas" : "Consolas sugeridas",
+        "text_consola": "8 GRUPO, 4 BANDAS PARAMETRICAS Y MINIMO 8 AUXILIARES PRE/POST E INSET POINT EN TODOS LOS CANALES Y SUBGRUPOS.",
+        "procesador" : "PROCESADORES DE MEZCLA CONSOLA ANALOGA",
+        "procesador_li": "1 PROCESADOR MULTIEFECTOS YAMAHA LEXICON, TC",
+        "procesador_li_dos" : "2 ecualizador ashly gqx estereo",
+        "backline": "guitarra",
+        "guitarra": "2 AMPLIFICADORES DE 100W RESPECTIVAMENTE",
+        "bass": "bajo",
+        "bass_text" : "AMPLIFICADOR LANEY SISTEMA 4 X 10 CON 1 X 15 BI AMPLIFICADO 500W MINIMO.",
+        "Bateria" : "bateria",
+        "obligatorio":"OBLIGATORIO",
+        "base":"BASE PARA PIANO",
+        "hidratacion":"HIDRATACIO",
+        "proyeccion":"PROYECCION VISUAL DE IMAGENES OFIFICIALES DEL GRUPO",
+        "atriles":"atriles",
+        "mezcla_uno":"5 MEZCLAS DE MONITORES",
+        "mezcla_dos":"MEZCLA 1 (1 ALTAVOZ MIN 1000 W C/U)",
+        "mezcla_tres":"MEZCLA 2 (1 ALTAVOZ MIN 1000 W C/U)",
+        "mezcla_cuatro":"MEZCLA 3 & 4 (SISTEMA 2 VIAS O MINIMO FULLRANGE CON SUB)",
+        "mezcla_cinco":"MEZCLA 5 (BATERIA)",
+        "mezcla_seis":"3 ECUALIZADORES ASHLY GQX ESTEREO",
+        "mezcla_siete":"1 PROCESADOR MULTIEFECTOS YAMAHA",
+        "registro":"REGISTRO AUDIO VISUAL Y FOTOGRAFICOS",
+        "registro_text":"LA ORGANIZACION DEL EVENTO ADEMAS AUTORIZA A LA BANDA A REALIZAR FOTOGRAFIAS Y GRABACIONES EN AUDIO Y/O VIDEO, ANTES, DURANTE Y DESPUES DE LA PRESENTACION EN LA TARIMA Y ZONA DE PRENSA, OARA LOS USOS QUE LA BANDA ESTIME CONVENIENTES."
     }
 }
