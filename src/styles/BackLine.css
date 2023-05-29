@@ -3,41 +3,34 @@
     color: white;
     margin: 0;
     height: 100vh;
+    text-transform: uppercase;
+}
+
+.back {
     display: grid;
     grid-template-columns: 50% 50%;
-    text-transform: uppercase;
+}
+
+
+
+.backDer {
+    background: yellow;
 }
 
 .backline h1 {
     text-align: center;
+    background: red;
+    margin: 0;
 }
 
-.backline h2 {
+.backline h3 {
     color: #8DDEDC;
+    margin: 0;
 }
 
 .backIzq {
-    display: grid;
-    grid-template-rows: 20% 30% 10% 40%;
-}
-
-.backDer {
-    display: grid;
-    grid-template-rows: 40% 20% 40%;
-}
-
-.a {
-    background: red;
-}
-
-.b {
     background: green;
+    display: grid;
+    grid-template-rows: 20% 30% 20% 30%;
 }
 
-.c {
-background: gold;
-}
-
-.d {
-    background: grey;
-}
