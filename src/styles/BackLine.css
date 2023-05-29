@@ -1,36 +1,107 @@
+@font-face {
+    font-family: 'kingkong';
+    src: url('../fonts/NimbusSansT-BlackCondensed.otf');
+}
+
+@font-face {
+    font-family: 'kingkongtexto';
+    src: url('../fonts//ZZYZX.TTF');
+}
+
 .backline {
     background: black;
-    color: white;
     margin: 0;
-    height: 100vh;
+    height: 170vh;
     text-transform: uppercase;
+    padding-top: 100px;
+    color: whitesmoke;
 }
 
 .back {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 20px;
 }
 
+.backText h1 {
+        margin:0;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+        font-family: kingkong;
+        font-size: 50px;
+        background: #57DFDD;
+        color: black;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 8ch;
+        animation: typing 2s steps(12),
+            blink 1s infinite step-end alternate;
+        overflow: hidden;
+        -webkit-animation: typing 2s steps(12), ;
+} 
 
 
-.backDer {
-    background: yellow;
-}
-
-.backline h1 {
-    text-align: center;
-    background: red;
-    margin: 0;
-}
 
 .backline h3 {
     color: #8DDEDC;
-    margin: 0;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    font-size: 23px;
+    font-weight: 800;
+    font-family: 'kingkong';
 }
 
 .backIzq {
-    background: green;
-    display: grid;
-    grid-template-rows: 20% 30% 20% 30%;
+    font-family: 'kingkongtexto';
+
 }
 
+.backIzq p{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.backIzq ul {
+    margin: 0 ;
+    list-style:none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.backIzq li {
+    margin: 0;
+    text-align: left;
+}
+
+
+.backDer {
+    padding-top: 80px;
+    font-family: 'kingkongtexto';
+}
+
+.backDer ul {
+    margin: 0;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.backDer li {
+    margin: 0;
+    text-align: left;
+}
+
+.backDer h4 {
+    text-align: justify;
+    margin: 0;
+    padding-top: 0;
+    padding: 30px;
+}

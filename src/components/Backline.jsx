@@ -6,12 +6,14 @@ const Backline = () => {
 
   return (
     <div className="backline" id="backLine" ref={sectionRef}>
-      <h1>BackLine</h1>
+      <div className="backText">
+        <h1>BackLine</h1>
+      </div>
       <div className="back">
         <div className="backIzq">
           <div className="a">
             <h3>Audio Sala</h3>
-            <h4>Sistema Profesional con las siguientes caracteristicas:</h4>
+            <p>Sistema Profesional con las siguientes caracteristicas:</p>
             <ul>
               <li>
                 2 vias minimo estereo 110 db promedio en FOH, sin Caida mayor.
@@ -31,10 +33,10 @@ const Backline = () => {
               <li>chrest min 32ch</li>
               <li>mackie min 32ch</li>
             </ul>
-            <h4>
+            <p>
               8 grupo, 4 bandas parametricas y minimo 8 auxiliares pre/post e
               inset point en todos los canales y subgrupos.
-            </h4>
+            </p>
           </div>
           <div className="c">
             <h3>Procesadores de Mezcla consola Analoga</h3>
