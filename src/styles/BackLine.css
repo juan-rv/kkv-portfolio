@@ -3,8 +3,41 @@
     color: white;
     margin: 0;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-transform: uppercase;
 }
 
 .backline h1 {
-    margin: 0;
+    text-align: center;
+}
+
+.backline h2 {
+    color: #8DDEDC;
+}
+
+.backIzq {
+    display: grid;
+    grid-template-rows: 20% 30% 10% 40%;
+}
+
+.backDer {
+    display: grid;
+    grid-template-rows: 40% 20% 40%;
+}
+
+.a {
+    background: red;
+}
+
+.b {
+    background: green;
+}
+
+.c {
+background: gold;
+}
+
+.d {
+    background: grey;
 }
