@@ -11,7 +11,6 @@
 .contentTrayectoria {
     padding-top: 60px;
     background: black;
-    height: 100vh;
 }
 
 .trayectoria {
@@ -85,7 +84,7 @@
     width: 300px;
 }
 
-@media screen and (min-width : 481px) {
+@media screen and (min-width : 768px) {
     .title_sub {
         display: none;
     }
@@ -95,7 +94,6 @@
 
     .contentTrayectoria {
         padding-top: 60px;
-        height: 120vh;
     }
 
     .trayectoria {
@@ -161,7 +159,77 @@
     .logo_img {
         display: none;
     }
+}
 
+@media screen and (min-width: 481px) and (max-width: 767px) {
 
+    .contentTrayectoria {
+        padding-top: 60px;
 
+    }
+
+    .trayectoria {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info_trayectoria {
+        order: 2;
+    }
+
+    .info_dos_trayectoria {
+        padding-top: 1px;
+    }
+
+    .info_dos_trayectoria img {
+        height: 300px;
+        width: 220px;
+    }
+
+    .info_trayectoria ul {
+        margin-top: 20px;
+        margin-left: 130px;
+        width: 70%;
+    }
+
+    .info_trayectoria strong {
+        color: #57DFDD;
+        margin-right: 17PX;
+        font-weight: 100;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .info_trayectoria li {
+        font-family: kingkong;
+        font-size: 17px;
+        letter-spacing: 2px;
+        color: whitesmoke;
+    }
+
+    .info_trayectoria h1 {
+        display: none;
+    }
+
+    .title_sub {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+        font-family: kingkong;
+        font-size: 50px;
+        background: #57DFDD;
+        color: black;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 11ch;
+        animation: typing 2s steps(12),
+            blink 1s infinite step-end alternate;
+        overflow: hidden;
+        -webkit-animation: typing 2s steps(12), ;
+    }
+
+    .logo_img {
+        display: none;
+    }
 }

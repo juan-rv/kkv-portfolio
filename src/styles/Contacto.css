@@ -149,3 +149,36 @@
         margin-right: auto;
     }
 }
+
+
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    .contact-form-container {
+        text-transform: uppercase;
+        background-color: black;
+        height: auto;
+        display: grid;
+        grid-template-columns: 65% 35%;
+    }
+
+    .img_contact {
+        display: none;
+    }
+
+    .contact-form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_contain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first_contain {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

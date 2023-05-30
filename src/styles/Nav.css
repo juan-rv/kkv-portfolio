@@ -94,7 +94,7 @@
     border-bottom: solid 1px rgb(82, 80, 80);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
     .header {
         display: none;
