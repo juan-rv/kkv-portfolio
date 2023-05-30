@@ -6,12 +6,14 @@
   height: 90vh;
   background: black;
 }
+
 @font-face {
   font-family: 'kingkong';
   src: url('../fonts/NimbusSansT-BlackCondensed.otf');
 }
 
 .content_second {
+  padding-top: 20px;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -26,6 +28,7 @@
   margin-top: 30px;
   display: table;
 }
+
 .title_bio h1 {
   background: #55dcdb;
   color: rgb(0, 0, 0);
@@ -41,17 +44,21 @@
   border-right: 4px solid;
   width: 11ch;
   animation: typing 2s steps(12),
-  blink 1s infinite step-end alternate;
+    blink 1s infinite step-end alternate;
   overflow: hidden;
-  -webkit-animation: typing 2s steps(12),;
+  -webkit-animation: typing 2s steps(12), ;
 }
 
 @keyframes typing {
-  from {width: 0}
+  from {
+    width: 0
+  }
 }
 
 @keyframes blink {
-  50% {border-color: transparent;}
+  50% {
+    border-color: transparent;
+  }
 }
 
 .p_bio {
@@ -87,10 +94,5 @@
   width: 550px;
   margin-bottom: 50px;
   border-radius: 5px;
-  box-shadow: 10px 10px 30px #1e535394 ;
+  box-shadow: 10px 10px 30px #1e535394;
 }
-
-
-
-
-

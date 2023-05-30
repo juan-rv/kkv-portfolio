@@ -1,6 +1,6 @@
 @font-face {
-font-family: 'kingkong';
-src: url('../fonts/NimbusSansT-BlackCondensed.otf');
+    font-family: 'kingkong';
+    src: url('../fonts/NimbusSansT-BlackCondensed.otf');
 }
 
 @font-face {
@@ -8,9 +8,10 @@ src: url('../fonts/NimbusSansT-BlackCondensed.otf');
     src: url('../fonts//ZZYZX.TTF');
 }
 
-.content_band{
+.content_band {
+    padding-top: 40px;
     background-color: black;
-    height: 104vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 50% 50%;
     text-transform: uppercase;
@@ -35,23 +36,23 @@ src: url('../fonts/NimbusSansT-BlackCondensed.otf');
 }
 
 .second_content h2 {
-background: #57DFDD;
-  color: black;
-  font-family: kingkong;
-  text-transform: uppercase;
-  font-size: 50px;
-  margin: 0;
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  letter-spacing: 4px;
-  white-space: nowrap;
-  border-right: 4px solid;
-  width: 10ch;
-  animation: typing 2s steps(12),
-  blink 1s infinite step-end alternate;
-  overflow: hidden;
-  -webkit-animation: typing 2s steps(12),;
+    background: #57DFDD;
+    color: black;
+    font-family: kingkong;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 4px;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 10ch;
+    animation: typing 2s steps(12),
+        blink 1s infinite step-end alternate;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(12), ;
 }
 
 .second_content ul {

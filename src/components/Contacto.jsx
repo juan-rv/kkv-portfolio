@@ -128,7 +128,7 @@ const Contacto = () => {
             <div className="name">
               <input
                 type="text"
-                placeholder="Nombre"
+                placeholder="Nombre/Name"
                 name="user_name"
                 onChange={(e) => handleChange(e)}
                 value={input.user_name}
@@ -138,7 +138,7 @@ const Contacto = () => {
             <div className="ciudad">
               <input
                 type="text"
-                placeholder="Ciudad"
+                placeholder="Ciudad/city"
                 name="city"
                 onChange={(e) => handleChange(e)}
                 value={input.city}

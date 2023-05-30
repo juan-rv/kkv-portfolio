@@ -85,6 +85,7 @@ const HeaderNav = () => {
             title="backLine"
             href="#backLine"
             onClick={() => handleLink("backLine")}
+            className={active === "backLine" ? "active" : ""}
           >
             BackLine
           </a>
@@ -92,23 +93,34 @@ const HeaderNav = () => {
             title="contacto"
             href="#contacto"
             onClick={() => handleLink("contact")}
+            className={active === "contact" ? "active" : ""}
           >
             Contacto
           </a>
           <div className="icons">
-            <a href="">
+            <a
+              target="_blank"
+              href="https://open.spotify.com/artist/2QM0o1LMlCWVIFDfNEbXxA?si=F7ks-sgSSV6uH6lUKEjEFw"
+            >
               <FaSpotify />
             </a>
-            <a href="">
+            <a
+              href="https://www.youtube.com/channel/UCMXqOiTjV68H41Iw_eHjAzw"
+              target="_blank"
+            >
               <FaYoutube />
             </a>
-            <a href="">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/kingkongfiveoficial/"
+            >
               <FaInstagram />
             </a>
-            <a href="">
+            <a target="_blank" href="https://www.facebook.com/kingkongfive">
               <FaFacebook />
             </a>
-            <a href="">
+
+            <a target="_blank" href="https://www.tiktok.com/@kingkong_five">
               <FaTiktok />
             </a>
           </div>

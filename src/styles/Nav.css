@@ -10,7 +10,7 @@
     height: 70px;
     width: 100%;
     z-index: 1000;
-    background: black;
+    background: rgb(0, 0, 0);
     position: fixed;
 }
 
@@ -63,11 +63,15 @@
 
 }
 
+.icons a:hover {
+    color: #57DFDD;
+}
+
 
 .nav .active {
-    color: rgb(186,187,189);
+    color: rgb(186, 187, 189);
     font-weight: 600;
-    border-bottom: solid 2px rgb(186,187,189) ;
+    border-bottom: solid 2px rgb(186, 187, 189);
 }
 
 .buttons_lang {
@@ -91,8 +95,5 @@
 
 .espa.active img,
 .eng.active img {
-border-bottom: solid 1px rgb(82, 80, 80);
+    border-bottom: solid 1px rgb(82, 80, 80);
 }
-
-
-

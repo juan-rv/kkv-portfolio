@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'kingkong';
-  src: url('../fonts/NimbusSansT-BlackCondensed.otf');
+    font-family: 'kingkong';
+    src: url('../fonts/NimbusSansT-BlackCondensed.otf');
 }
 
 @font-face {
@@ -9,8 +9,9 @@
 }
 
 .contentTrayectoria {
+    padding-top: 60px;
     background: black;
-    height: 108vh;
+    height: 100vh;
 }
 
 .trayectoria {
@@ -33,9 +34,9 @@
     border-right: 4px solid;
     width: 11ch;
     animation: typing 2s steps(12),
-    blink 1s infinite step-end alternate;
+        blink 1s infinite step-end alternate;
     overflow: hidden;
-    -webkit-animation: typing 2s steps(12),;
+    -webkit-animation: typing 2s steps(12), ;
 }
 
 
@@ -55,7 +56,7 @@
     margin-right: 25PX;
     font-weight: 100;
     font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .info_trayectoria li {
@@ -69,7 +70,8 @@
     width: 38%;
     height: 250px;
     margin-top: -50px;
-    margin-bottom: 0;;
+    margin-bottom: 0;
+    ;
 }
 
 .info_dos_trayectoria {
