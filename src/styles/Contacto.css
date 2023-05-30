@@ -121,6 +121,14 @@
 
 @media screen and (max-width: 480px) {
 
+    .contact-form-container {
+        text-transform: uppercase;
+        background-color: black;
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 65% 35%;
+    }
+
     .img_contact {
         display: none;
     }

@@ -98,17 +98,35 @@
   color: #71cfce;
 }
 
-/*
-@media (max-width: 900px) {
-  .component {
-    width: 50%;
-  }
-} */
+
 
 @media screen and (max-width: 480px) {
 
   .footer {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+  }
+
+  .textFooter {
+    order: 2;
+  }
+
+  .textFooter p {
+    font-size: 11px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .musicCover img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .musicCover {
+    margin-top: 5px;
   }
 
 }
