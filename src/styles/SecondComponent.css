@@ -94,6 +94,29 @@
   box-shadow: 10px 10px 30px #1e535394;
 }
 
+.icons_bio {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icons_bio a {
+  margin-left: 30px;
+  font-size: 20px;
+  color: white;
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .icons_bio {
+    display: none;
+  }
+
+}
 
 
 @media screen and (min-width : 481px) {

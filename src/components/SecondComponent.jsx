@@ -1,5 +1,12 @@
 import React, { useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import {
+  FaSpotify,
+  FaYoutube,
+  FaInstagram,
+  FaFacebook,
+  FaTiktok,
+} from "react-icons/fa";
 import agrupacion from "../assets/agrupacion.jpeg";
 import "../styles/SecondComponent.css";
 
@@ -59,6 +66,33 @@ const SecondComponent = () => {
       </div>
       <div className="blur-img">
         <img src={agrupacion} alt="agrupacion" />
+      </div>
+      <div className="icons_bio">
+        <a
+          target="_blank"
+          href="https://open.spotify.com/artist/2QM0o1LMlCWVIFDfNEbXxA?si=F7ks-sgSSV6uH6lUKEjEFw"
+        >
+          <FaSpotify />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCMXqOiTjV68H41Iw_eHjAzw"
+          target="_blank"
+        >
+          <FaYoutube />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/kingkongfiveoficial/"
+        >
+          <FaInstagram />
+        </a>
+        <a target="_blank" href="https://www.facebook.com/kingkongfive">
+          <FaFacebook />
+        </a>
+
+        <a target="_blank" href="https://www.tiktok.com/@kingkong_five">
+          <FaTiktok />
+        </a>
       </div>
     </div>
   );
