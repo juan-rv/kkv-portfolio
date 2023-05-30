@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'kingkongtexto';
-    src: url('../fonts/ZZYZX.TTF');
+  font-family: 'kingkongtexto';
+  src: url('../fonts/ZZYZX.TTF');
 }
 
 .footer {
@@ -35,7 +35,7 @@
   align-items: center;
   justify-content: center;
   font-family: 'kingkongtexto';
-  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -62,7 +62,8 @@
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-}
+  }
+
   100% {
     transform: rotate(360deg);
   }
@@ -81,13 +82,13 @@
 
 .buttonsMusic {
   background: transparent;
-  }
+}
 
 .playButton {
   background: transparent;
   border: none;
   cursor: pointer;
-  }
+}
 
 .playButton svg {
   color: #8DDEDC;
@@ -103,3 +104,11 @@
     width: 50%;
   }
 } */
+
+@media screen and (max-width: 480px) {
+
+  .footer {
+    display: none;
+  }
+
+}

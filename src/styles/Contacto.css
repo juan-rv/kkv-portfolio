@@ -11,7 +11,7 @@
 .contact-form-container {
     text-transform: uppercase;
     background-color: black;
-    height: 100vh;
+    height: 85vh;
     display: grid;
     grid-template-columns: 65% 35%;
 }
@@ -117,4 +117,12 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    .contact-form-container {
+        display: none;
+    }
+
 }

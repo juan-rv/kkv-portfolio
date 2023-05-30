@@ -79,3 +79,11 @@
     height: 250px;
     margin-top: -50px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .content_band {
+        display: none;
+    }
+
+}

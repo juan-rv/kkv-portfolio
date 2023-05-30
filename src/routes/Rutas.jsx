@@ -7,18 +7,20 @@ import Trayectoria from "../components/Trayectoria";
 import Backline from "../components/Backline";
 import Contacto from "../components/Contacto";
 import MusicDos from "../components/MusicDos";
+import NavBarDos from "../components/NavBarDos";
 
 const Rutas = () => {
   return (
     <div>
       <HeaderNav />
+      <NavBarDos />
       <Intro />
       <SecondComponent />
       <TheBand />
       <Trayectoria />
       <Backline />
-      <Contacto/>
-      <MusicDos/>
+      <Contacto />
+      <MusicDos />
     </div>
   );
 };

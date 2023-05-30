@@ -85,3 +85,11 @@
     height: 500px;
     width: 300px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .contentTrayectoria {
+        display: none;
+    }
+
+}

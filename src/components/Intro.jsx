@@ -23,7 +23,7 @@ const Intro = () => {
           <div className="content_text">
             <H1
               initial={{ opacity: 0 }}
-              animate={{ opacity: scrubPercent >= 10 ? 1 : 0 }}
+              animate={{ opacity: scrubPercent >= 5 ? 1 : 0 }}
               transition={{ duration: 0.5 }}
               className="welcome"
             >
@@ -31,7 +31,7 @@ const Intro = () => {
             </H1>
             <H1
               initial={{ opacity: 0 }}
-              animate={{ opacity: scrubPercent >= 20 ? 1 : 0 }}
+              animate={{ opacity: scrubPercent >= 10 ? 1 : 0 }}
               className="to"
             >
               TO
@@ -39,7 +39,7 @@ const Intro = () => {
             <motion.img
               className="logo_uno"
               initial={{ opacity: 0 }}
-              animate={{ opacity: scrubPercent >= 30 ? 1 : 0 }}
+              animate={{ opacity: scrubPercent >= 20 ? 1 : 0 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
               src={logo}
               alt="logo kkv"
