@@ -12,7 +12,7 @@
     background: black;
     margin: 0;
     text-transform: uppercase;
-    padding-top: 100px;
+    padding-top: 70px;
     color: whitesmoke;
 }
 
@@ -130,9 +130,10 @@
     padding-left: 30px;
     padding-right: 30px;
     font-family: 'kingkong';
+    font-weight: 100;
 }
 
-@media screen and (min-width : 768px) {
+@media screen and (min-width : 992px) {
     .title_back {
         display: none;
     }
@@ -142,6 +143,7 @@
 
     .backline {
         padding-top: 30px;
+        padding-bottom: 40px;
 
     }
 
@@ -193,6 +195,7 @@
         font-weight: 100;
         margin-bottom: 5px;
         border-bottom: 0.5px solid whitesmoke;
+        padding-bottom: 10px;
     }
 
     .backDer ul {
@@ -201,6 +204,7 @@
         font-weight: 100;
         margin-bottom: 10px;
         border-bottom: 0.5px solid whitesmoke;
+        padding-bottom: 10px;
     }
 
 
@@ -272,6 +276,7 @@
         font-weight: 100;
         margin-bottom: 5px;
         border-bottom: 0.5px solid whitesmoke;
+        padding-bottom: 10px;
     }
 
     .backDer ul {
@@ -280,6 +285,7 @@
         font-weight: 100;
         margin-bottom: 10px;
         border-bottom: 0.5px solid whitesmoke;
+        padding-bottom: 10px;
     }
 
 
@@ -296,4 +302,106 @@
         font-weight: 100;
     }
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .backline {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .back {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .logoBack {
+        display: none;
+    }
+
+    .title_back {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        text-transform: uppercase;
+        font-family: kingkong;
+        font-size: 50px;
+        background: #57DFDD;
+        color: black;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 8ch;
+        animation: typing 2s steps(12),
+            blink 1s infinite step-end alternate;
+        -webkit-animation: typing 2s steps(12), ;
+    }
+
+    .backline h3 {
+        color: #8DDEDC;
+        text-align: left;
+        margin-left: 40px;
+        margin-bottom: 5px;
+        margin-top: 0;
+        font-size: 18px;
+        font-weight: 100;
+        font-family: 'kingkong';
+    }
+
+    .backText h1 {
+        display: none;
+    }
+
+    .backIzq ul {
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 100;
+        margin-bottom: 5px;
+        border-bottom: 0.5px solid whitesmoke;
+        padding-bottom: 10px;
+    }
+
+    .backDer ul {
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 100;
+        margin-bottom: 10px;
+        border-bottom: 0.5px solid whitesmoke;
+        padding-bottom: 10px;
+    }
+
+
+
+    .register h4 {
+        font-size: 13px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        padding-bottom: 20px;
+    }
+
+    .backIzq p {
+        margin-left: 40px;
+        font-size: 17px;
+        font-weight: 100;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .backline {
+        padding-bottom: 30px;
+    }
+
+
+}
+
+@media screen and (min-width: 1440px) {
+    .backline {
+        padding-bottom: 50px;
+    }
+
+    .backText h1 {
+        font-size: 70px;
+    }
 }

@@ -11,14 +11,16 @@
 .contact-form-container {
     text-transform: uppercase;
     background-color: black;
-    height: 85vh;
     display: grid;
     grid-template-columns: 65% 35%;
+    padding-top: 30px;
+    padding-bottom: 130px;
 }
 
 .contact_title h1 {
     margin: 0;
     margin-top: 30px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     text-transform: uppercase;
@@ -124,9 +126,7 @@
     .contact-form-container {
         text-transform: uppercase;
         background-color: black;
-        height: 90vh;
-        display: grid;
-        grid-template-columns: 65% 35%;
+
     }
 
     .img_contact {
@@ -181,4 +181,64 @@
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-form-container {
+        text-transform: uppercase;
+        background-color: black;
+        height: auto;
+        display: grid;
+        grid-template-columns: 65% 35%;
+        padding-bottom: 90px;
+    }
+
+    .img_contact {
+        display: none;
+    }
+
+    .contact-form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_contain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first_contain {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .contact-form-container {
+        padding-bottom: 80px;
+    }
+
+    .img_contact {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .contact-form-container {
+        padding-bottom: 130px;
+        padding-top: 50px;
+    }
+
+    .img_contact {
+        margin-top: 140px;
+    }
+
+    .contact_title h1 {
+        font-size: 70px;
+        margin-bottom: 40px;
+    }
+
 }

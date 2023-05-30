@@ -105,3 +105,20 @@
     }
 
 }
+
+@media screen and (min-width: 1440px) {
+
+    .welcome {
+        font-size: 120px;
+    }
+
+    .to {
+        font-size: 6rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .logo_uno {
+        width: 900px
+    }
+}
