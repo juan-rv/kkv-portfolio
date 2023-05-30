@@ -1,46 +1,120 @@
+@font-face {
+    font-family: 'kingkong';
+    src: url('../fonts/NimbusSansT-BlackCondensed.otf');
+}
+
+@font-face {
+    font-family: 'kingkongtexto';
+    src: url('../fonts//ZZYZX.TTF');
+}
+
 .contact-form-container {
+    text-transform: uppercase;
     background-color: black;
-    color: white;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.contact_title h1 {
     margin: 0;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-family: kingkong;
+    font-size: 50px;
+    background: #57DFDD;
+    color: black;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 8ch;
+    animation: typing 2s steps(12),
+        blink 1s infinite step-end alternate;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(12), ;
 }
 
-.contact-form-title {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
+.second_contain {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.third_component {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-label {
-    display: block;
+
+.contain input {
+    background: transparent;
+    border: 1px solid #57DFDD;
+    box-shadow: 1px 38px 400px 21px rgba(227, 28, 28, 0.226);
+    color: whitesmoke;
+    width: 90%;
+    height: 40px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: larger;
+    font-family: 'kingkong';
+}
+
+.contain h4 {
+    color: red;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 5px;
     margin-bottom: 5px;
-    font-weight: bold;
 }
 
-input,
-textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+.message textarea {
+    margin: 0;
+    color: whitesmoke;
+    background: transparent;
+    max-width: 90%;
+    min-width: 89.9%;
+    max-height: 100px;
+    min-height: 99.9px;
+    border: 1px solid #57DFDD;
+    font-family: 'kingkongtexto';
+    font-size: 18px;
 }
 
-.submit-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #4d8f7a;
-    color: #fff;
-    font-size: 16px;
-    border: none;
-    border-radius: 3px;
+.send input {
     cursor: pointer;
 }
 
-.submit-button:hover {
-    background-color: #3c725c;
+.send input:hover {
+    background: #57dfdd3f;
+}
+
+.img_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_contact img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    animation: spin 4s linear infinite;
+    -webkit-animation: spin 9s linear infinite;
+    margin-bottom: 90px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

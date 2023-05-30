@@ -91,7 +91,7 @@ const HeaderNav = () => {
           <a
             title="contacto"
             href="#contacto"
-            onClick={() => handleLink("contacto")}
+            onClick={() => handleLink("contact")}
           >
             Contacto
           </a>
@@ -128,7 +128,7 @@ const HeaderNav = () => {
           <img className="flag" src={ingles} alt="ingles" />
         </buttom>
       </div>
-      </div>
+    </div>
   );
 };
 export default HeaderNav;

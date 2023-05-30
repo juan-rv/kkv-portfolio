@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import logo from "../assets/logo_uno.jpg";
 import "../styles/Contacto.css";
 
 function validate(input) {
@@ -113,10 +114,10 @@ const Contacto = () => {
   };
 
   return (
-    <div className="contact-form-container">
+    <div className="contact-form-container" id="contact" ref={sectionRef}>
       <div className="contain">
         <div className="contact_title">
-          <h1>Send nudes</h1>
+          <h1>Contact</h1>
         </div>
         <form
           className="first_contain"
@@ -144,7 +145,9 @@ const Contacto = () => {
               />
               {errors.city && <h4>{errors.city}</h4>}
             </div>
+          </div>
 
+          <div className="third_component">
             <div className="phone">
               <input
                 type="text"
@@ -166,22 +169,25 @@ const Contacto = () => {
               />
               {errors.userEmail && <h4>{errors.userEmail}</h4>}
             </div>
+          </div>
 
-            <div className="message">
-              <textarea
-                type="text"
-                placeholder="Mensaje"
-                name="message"
-                onChange={(e) => handleChange(e)}
-                value={input.message}
-              />
-              {errors.message && <h4>{errors.message}</h4>}
-            </div>
-            <div className="send">
-              <input type="submit" value="Enviar" />
-            </div>
+          <div className="message">
+            <textarea
+              type="text"
+              placeholder="Mensaje"
+              name="message"
+              onChange={(e) => handleChange(e)}
+              value={input.message}
+            />
+            {errors.message && <h4>{errors.message}</h4>}
+          </div>
+          <div className="send">
+            <input type="submit" value="Enviar" />
           </div>
         </form>
+      </div>
+      <div className="img_contact">
+        <img src={logo} alt="logo_band" />
       </div>
     </div>
   );
