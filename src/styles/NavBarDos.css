@@ -59,13 +59,16 @@
     }
 
     .burger-menu {
-        background: rgba(22, 27, 34, 0.938);
+        background: rgba(34, 22, 22, 0.781);
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         top: 100%;
         right: 0;
-        width: 200px;
+        width: 180px;
         z-index: 1;
+        padding-left: 0px;
+        margin-left: 20px;
+        margin-top: 5px;
     }
 
     .burger-menu a {

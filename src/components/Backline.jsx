@@ -22,6 +22,7 @@ const Backline = () => {
 
   return (
     <div className="backline" id="backLine" ref={sectionRef}>
+      <h1 className="title_back">BackLine</h1>
       <div className="back">
         <div className="backIzq">
           <div className="logoBack">

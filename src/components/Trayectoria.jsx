@@ -60,8 +60,9 @@ const Trayectoria = () => {
   return (
     <div className="contentTrayectoria">
       <div className="trayectoria" id="trayectoria" ref={sectionRef}>
-        <h1>{t("trajectory.title")}</h1>
+        <h1 className="title_sub">{t("trajectory.title")}</h1>
         <div className="info_trayectoria">
+          <h1>{t("trajectory.title")}</h1>
           <ul>
             <li>
               <strong>02/2016</strong>

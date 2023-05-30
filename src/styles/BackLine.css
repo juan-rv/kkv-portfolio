@@ -133,10 +133,94 @@
     font-family: 'kingkong';
 }
 
+@media screen and (min-width : 481px) {
+    .title_back {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .backline {
+        margin-top: 0;
+        height: 180vh;
+    }
+
+    .back {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .logoBack {
         display: none;
     }
+
+    .title_back {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        text-transform: uppercase;
+        font-family: kingkong;
+        font-size: 50px;
+        background: #57DFDD;
+        color: black;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 8ch;
+        animation: typing 2s steps(12),
+            blink 1s infinite step-end alternate;
+        -webkit-animation: typing 2s steps(12), ;
+    }
+
+    .backline h3 {
+        color: #8DDEDC;
+        text-align: left;
+        margin-left: 40px;
+        margin-bottom: 5px;
+        margin-top: 0;
+        font-size: 18px;
+        font-weight: 100;
+        font-family: 'kingkong';
+    }
+
+    .backText h1 {
+        display: none;
+    }
+
+    .backIzq ul {
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 100;
+        margin-bottom: 5px;
+        border-bottom: 0.5px solid whitesmoke;
+    }
+
+    .backDer ul {
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 100;
+        margin-bottom: 10px;
+        border-bottom: 0.5px solid whitesmoke;
+    }
+
+
+
+    .register h4 {
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+    .backIzq p {
+        margin-left: 40px;
+        font-size: 17px;
+        font-weight: 100;
+    }
+
+
+
+
+
+
 
 }

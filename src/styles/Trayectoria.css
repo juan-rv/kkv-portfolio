@@ -21,7 +21,7 @@
 
 
 
-.trayectoria h1 {
+.info_trayectoria h1 {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -85,6 +85,12 @@
     width: 300px;
 }
 
+@media screen and (min-width : 481px) {
+    .title_sub {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .contentTrayectoria {
@@ -112,6 +118,7 @@
 
     .info_trayectoria ul {
         margin-top: 20px;
+        margin-right: 30px;
     }
 
     .info_trayectoria strong {
@@ -127,6 +134,28 @@
         font-size: 15px;
         letter-spacing: 2px;
         color: whitesmoke;
+    }
+
+    .info_trayectoria h1 {
+        display: none;
+    }
+
+    .title_sub {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+        font-family: kingkong;
+        font-size: 50px;
+        background: #57DFDD;
+        color: black;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 11ch;
+        animation: typing 2s steps(12),
+            blink 1s infinite step-end alternate;
+        overflow: hidden;
+        -webkit-animation: typing 2s steps(12), ;
     }
 
 
