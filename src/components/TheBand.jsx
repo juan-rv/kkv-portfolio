@@ -44,9 +44,9 @@ const TheBand = () => {
     <div className="content_band" id="band" ref={sectionRef}>
       <div className="first_content">
         <Slider {...settings}>
-          <div className="color">
+          {/* <div className="color">
             <img src={uno} alt="imagen 1" />
-          </div>
+          </div> */}
           <div>
             <img src={dos} alt="imagen 2" />
           </div>
@@ -67,6 +67,7 @@ const TheBand = () => {
 
       <div className="second_content">
         <h2>{t("theBand.title")}</h2>
+
         <ul>
           <li>
             {" "}
@@ -97,6 +98,7 @@ const TheBand = () => {
             Fabian Salazar - <strong>{t("theBand.saxophonist")}</strong>
           </li>
         </ul>
+
         <img src={logo} alt="logo" />
       </div>
     </div>

@@ -11,15 +11,15 @@
 .content_band {
     padding-top: 40px;
     background-color: black;
-    height: 90vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
     text-transform: uppercase;
-
 }
 
 .first_content {
     z-index: 80;
+
 }
 
 .first_content img {
@@ -83,7 +83,51 @@
 @media screen and (max-width: 480px) {
 
     .content_band {
+        padding-top: 10px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_content h2 {
+        margin-top: 20px;
+        margin-bottom: none;
+    }
+
+
+
+    .second_content ul {
+        margin-top: 20px;
+        margin-right: 30px;
+
+    }
+
+    .second_content li {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .second_content img {
         display: none;
     }
+
+    .first_content {
+        order: 3
+    }
+
+    .second_content {
+        height: 400px;
+    }
+
+    .first_content {
+        padding-left: 30px;
+    }
+
+    .first_content img {
+        width: 300px;
+        height: 230px;
+        border-radius: 5px;
+    }
+
 
 }

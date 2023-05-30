@@ -1,25 +1,21 @@
-.all_content {
-  /* background: linear-gradient(rgba(112, 117, 134, 0.445), rgba(60, 63, 73, 0.548)), url("../assets/papel.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 90vh; */
-  height: 90vh;
-  background: black;
-}
-
 @font-face {
   font-family: 'kingkong';
   src: url('../fonts/NimbusSansT-BlackCondensed.otf');
 }
 
-.content_second {
-  padding-top: 20px;
+@font-face {
+  font-family: 'kingkongtexto';
+  src: url('../fonts//ZZYZX.TTF');
+}
+
+
+.all_content {
+  height: 90vh;
+  background: black;
   height: 100%;
   width: 100%;
-  position: absolute;
   display: grid;
   grid-template-columns: 50% 50%;
-
 }
 
 .title_bio {
@@ -97,10 +93,49 @@
   box-shadow: 10px 10px 30px #1e535394;
 }
 
-@media screen and (max-width: 480px) {
 
-  .all_content {
+
+@media screen and (min-width : 481px) {
+  .blur-img_dos {
     display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .all_content {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .blur-img {
+    display: none;
+  }
+
+  .blur-img_dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .blur-img_dos img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #1e535394;
+  }
+
+  .p_bio p {
+    text-align: justify;
+    font-family: 'kingkongtexto';
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 3px;
+    margin-left: 14px;
+    margin-right: 14px;
   }
 
 }

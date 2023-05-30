@@ -52,6 +52,10 @@ const NavBarDos = () => {
             <a title="bio" href="#bio" onClick={() => handleLink("bio")}>
               {t("nav.bio")}
             </a>
+
+            <a title="band" href="#band" onClick={() => handleLink("band")}>
+              {t("nav.band")}
+            </a>
             <a
               title="trayectoria"
               href="#trayectoria"
@@ -71,7 +75,7 @@ const NavBarDos = () => {
               href="#contacto"
               onClick={() => handleLink("contact")}
             >
-              contact
+              Contact
             </a>
           </ul>
         )}

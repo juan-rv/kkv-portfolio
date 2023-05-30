@@ -16,6 +16,7 @@
         justify-content: space-between;
         color: #c9d1d9;
         position: fixed;
+        z-index: 1000;
     }
 
     .burger-button-container {
@@ -34,7 +35,7 @@
         padding: 0;
         position: relative;
         width: 24px;
-        z-index: 1;
+
         margin-left: 15px;
     }
 
